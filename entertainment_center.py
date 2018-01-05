@@ -26,6 +26,5 @@ drive = media.Movie("Drive", "Ryan Gosling is a Hollywood stuntman that "
 
 movies = [the_fountain, eternal_sunshine, drive]
 
-print(movies[0].__doc__)
 # Calls provided function to generate a web page
 fresh_tomatoes.open_movies_page(movies)
