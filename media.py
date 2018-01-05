@@ -2,6 +2,7 @@ import webbrowser
 
 
 # Movie class that holds relevant info about movies
+# Written during course of lecture videos
 class Movie():
     def __init__(self, movie_title, movie_storyline, poster_image,
                  trailer_youtube):
