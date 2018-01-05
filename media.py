@@ -1,9 +1,12 @@
 import webbrowser
 
 
-# Movie class that holds relevant info about movies
 # Written during course of lecture videos
 class Movie():
+    """
+    Movie class that holds title, storyline, poster image, and a url to 
+    the trailer.
+    """
     def __init__(self, movie_title, movie_storyline, poster_image,
                  trailer_youtube):
         self.title = movie_title
